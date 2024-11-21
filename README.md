@@ -29,22 +29,21 @@ This project is designed to create a Parks Quality Index (PQI) for all parks wit
 This criteria includes park amenities, park area, presence of park pathways, presence of water bodies, and access to transit stops within 350m of parks. 
 These criteria were selected based on what qualities of parks make them more or less usable by the communities they reside in or near. 
 Weights for the criteria were determined through the analysis of the priorities of sustainable goals and indicators associated with Sustainable Calgary's 'State of Our City 2020' report.
-This PQI was used in conjunction with Census data from Stats Canada 2021 tables based on Average Income, Population Denisty per Square Kilometer, and the Census Tracts of Calgary. 
-This data was spatially joined and analysed within ArcGIS Pro using the NAD 1983 3TM 114 projected coordinate system. All datasets and cleaned tables will be provided within the datasets folder where they will be categorized by either parks or census data. 
-The datasets used for this analysis are included below in a CSV table format.
+This PQI was used in conjunction with Census data from Stats Canada 2021 tables based on Average Income, Population Density per Square Kilometer, and the Census Tracts of Calgary. 
+This data was spatially joined and analyzed within ArcGIS Pro using the Calgary WGS 1984 3TM W114 projected coordinate system. All datasets and cleaned tables will be provided within the datasets folder which is included below in a CSV table format along with HTML Metadata files. 
 
-Folders and Datasets:
+Dataset Folder:
 
-- ParksAndParkFeatures
+- ParksAndCensus_Data:
     - PQI_Table
-    - Park_Areas
+    - Census_Table
+    - Park_Area
     - Park_Equipment
     - Park_Seating
     - Park_WaterBodies
-    - Transit_Stops
+    - Park_Transit
+    - Park_Washrooms
+    - Park_Pathway
     - Park_SportSurfaces
-    - Calgary_PCS
 
-- CensusData
-    - Census_Tracts
-    - Census_Table
+    
