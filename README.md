@@ -31,6 +31,7 @@ These criteria were selected based on what qualities of parks make them more or 
 Weights for the criteria were determined through the analysis of the priorities of sustainable goals and indicators associated with Sustainable Calgary's 'State of Our City 2020' report.
 This PQI was used in conjunction with Census data from Stats Canada 2021 tables based on Average Income, Population Density per Square Kilometer, and the Census Tracts of Calgary. 
 This data was spatially joined and analyzed within ArcGIS Pro using the Calgary WGS 1984 3TM W114 projected coordinate system. All datasets and cleaned tables will be provided within the datasets folder which is included below in a CSV table format along with HTML Metadata files. 
+The cleaned datasets included below begin with the prefix "Park" and the results that stem from these datasets being spatially joined and manipulated on ArcGIS Pro are the PQI and Census tables. 
 
 Dataset Folder:
 
